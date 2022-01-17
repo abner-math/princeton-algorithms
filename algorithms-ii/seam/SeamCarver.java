@@ -8,10 +8,10 @@ import edu.princeton.cs.algs4.Stack;
 
 public class SeamCarver {
 
-	private Picture picture;
-	private double[][] energyPicture;
-	private int[] minPathVertical;
-	private int[] minPathHorizontal;
+    private Picture picture;
+    private double[][] energyPicture;
+    private int[] minPathVertical;
+    private int[] minPathHorizontal;
 	
    // create a seam carver object based on the given picture
    public SeamCarver(Picture picture) {
